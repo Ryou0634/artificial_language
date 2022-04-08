@@ -19,8 +19,8 @@ You can find configuation files of some artificial languages under [`artificial_
 # Usage: python generate_artificial_corpus.py COFIG-PATH SAVE-PATH NUM-SENTENCES
 
 # the Uniform language
-poetry run python generate_artificial_corpus.py artificial_language/configs/languages/no_structure_uniform.jsonnet data/uniform.txt 10000
+poetry run python generate_artificial_corpus.py artificial_language/configs/no_structure_uniform.jsonnet data/uniform.txt 10000
 
 # the Zipf Nesting-Dep language
-poetry run python generate_artificial_corpus.py artificial_language/configs/languages/dependency_nesting_zipf.jsonnet data/dependency_nesting_zipf.txt 10000
+poetry run python generate_artificial_corpus.py artificial_language/configs/dependency_nesting_zipf.jsonnet data/dependency_nesting_zipf.txt 10000
 ```
