@@ -16,7 +16,7 @@ You can find the configuration files of some artificial languages under [`artifi
 
 ### Example
 ```bash
-# Usage: python generate_artificial_corpus.py COFIG-PATH SAVE-PATH NUM-SENTENCES
+# Usage: python generate_artificial_corpus.py CONFIG-PATH SAVE-PATH NUM-SENTENCES
 
 # the Uniform language
 poetry run python generate_artificial_corpus.py artificial_language/configs/no_structure_uniform.jsonnet data/uniform.txt 10000
