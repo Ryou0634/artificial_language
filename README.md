@@ -11,8 +11,8 @@ poetry install
 ```
 
 ## Usage
-The artificial language is configured by allennlp-like jsonnet files.
-You can find configuation files of some artificial languages under [`artificial_language/configs`](artificial_language/configs).
+The artificial languages is configured by allennlp-like jsonnet files.
+You can find the configuration files of some artificial languages under [`artificial_language/configs`](artificial_language/configs).
 
 ### Example
 ```bash
